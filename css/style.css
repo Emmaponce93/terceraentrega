@@ -35,13 +35,12 @@ header {
 }
 
 .footer{
-    display: flex-end;
+    display: flex;
     background-color: blanchedalmond;
-    align-items:end
+    justify-content: end;
 }
 .copy{
     color: rgb(12, 9, 9);
-    margin-left: 90% 
 }
 .divgaleria {
     width: 90%;
@@ -65,7 +64,7 @@ header {
     width: 50%;
 }
 
-@media screen and (max-width: 550px) {
+@media (min-width: 360px) and (max-width: 600px) {
     .abrir-menu,                        
     .cerrar-menu {
         display:block;
@@ -115,6 +114,15 @@ header {
     .nav-list li a {
     
         color:blanchedalmond
+    }
+    .footer{
+        display: flex-end;
+        background-color: blanchedalmond;
+        align-items:end
+    }
+    .copy{
+        color: rgb(12, 9, 9);
+    
     }
 
 
