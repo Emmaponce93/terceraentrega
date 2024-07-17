@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(219, 192, 118);
+   
+}
+
+.logo{
+    max-width: 5rem;
+}
+
+.nav-list {
+    list-style-type:none;
+    display: flex;
+    gap: 1rem;  
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+   
+}

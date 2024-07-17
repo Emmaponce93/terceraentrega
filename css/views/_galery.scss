@@ -1,0 +1,21 @@
+.divgaleria {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.img {
+    width: 80%;
+    aspect-ratio: 3/2;
+    border-radius: 40px;
+
+    flex-grow: 1;
+}
+.sec-galeria{
+    background-color: #000000;
+}
+.img-productos {
+    width: 50%;
+}
